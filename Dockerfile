@@ -4,7 +4,7 @@ FROM node:16-slim
 WORKDIR /usr/src/app
 # 소스 복사
 COPY . .
-# 패키지 설치 (강의 영상에서 http-server 설치로 변경 )
+# 패키지 설치 (강의 영상에서 http-server 설치로 변경)
 RUN npm install http-server -g
 # Listen 포트 정의
 EXPOSE 8080
